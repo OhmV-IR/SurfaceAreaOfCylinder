@@ -1,11 +1,11 @@
 from math import pi
 running = True
 while(running):
-    height = float(input("What is the height of the cylinder: "))
-    r = float(input("What is the radius of the circle: "))
+    height = input("What is the height of the cylinder: ")
+    r = input("What is the radius of the circle: ")
     try:
-        int(r)
-        int(height)
+        float(r)
+        float(height)
     except:
         print("input is not an integer please retry")
         exit()

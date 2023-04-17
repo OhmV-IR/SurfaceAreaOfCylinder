@@ -11,6 +11,6 @@ while(running):
         exit()
     C = float(2 * r) * pi
     RectangleA = round(C * height)
-    CircleA = round(float(r**2) * pi)
+    CircleA = round(r**2.0 * pi)
     print("Surface area of the cylinder: " + str(RectangleA) + str(CircleA))
     running = False;
